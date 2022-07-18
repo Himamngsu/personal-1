@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+    a{
+        display: inline-block;
+        text-decoration: none;
+    }
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+
+/*========================================common css end==================================*/
+/*========================================nav part css start================================*/
+.main_menu{
+    background: #fff;
+}
+.main_menu a{
+
+}
+.main_menu a img{
+    width: 60px;
+    height: 30px;
+}
+.menu_ber ul{
+    float: right;
+    margin-left: 570px;
+    text-align: right;
+}
+.menu_ber ul li{
+    
+}
+.menu_ber ul li:hover{
+}
+.menu_ber ul li a{
+    color: #03040ff1;
+    font-size: 14px;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ad150ae6;
+}
+/*========================================nav part css end==================================*/
+#hero_part{
+    padding: 40px 10px;
+    background: #060817;
+}
+.hero_social{
+    margin-top: 80px;
+}
+.hero_social ul{
+    display: flex;
+    margin-bottom: 20px;
+}
+.hero_social ul li{
+    margin-right: 30px;
+}
+.hero_social ul li a{
+    color: #8b8888;
+    font-size: 18px;
+    text-decoration: none;
+}
+.hero_tittle{
+     
+}
+.hero_tittle h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Open Sans';
+}
+.hero_tittle h1 { font-size: 50px; 
+    font-family:'Open Sans'; 
+    color:#ffffff;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.hero_tittle a{
+    color: #fff;
+    font-size: 20px;
+}
+.hero_tittle a i:hover{
+    background: #060817;
+    transition: 0.5s;
+}
+.hero_tittle a i{
+    margin-top: 100px;
+    padding: 20px;
+    background: #c75b04cc;
+}
+.her_img {
+    position: relative;
+    
+}
+.her_img img{
+    width: 300px;
+    height: 400px;
+    margin-left: 120px;
+    margin-top: 60px;
+    box-shadow: 1px 2px 4px 3px;
+}
+.her_img::after{
+   
+}
+/*========================================nav part css start================================*/
+/*========================================nav part css end==================================*/
+/*========================================service part css start================================*/
+#service_part{
+    padding: 40px 10px;
+    background: #060817;
+}
+.serv_text{
+    text-align: center;
+
+}
+.serv_text h2{
+    color: #fff;
+    font-size: 40px;
+    font-family:'Open Sans'; 
+    font-weight: 400;
+}
+.serv_content{
+    margin-top: 60px;
+}
+.serv_content:hover{
+}
+.serv_tt_body h4{
+    color: #fff;
+    font-size: 22px;
+    font-family:'Open Sans'; 
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.serv_tt_body h4:hover{
+}
+.serv_tt_body p{
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans'; 
+    font-weight: 300;
+    margin-bottom: 20px;
+    opacity: 5;
+}
+.serv_tt_footer a{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    background: #c55307;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.serv_tt_footer a:hover{
+    background: #060817;
+    transition: 1s;
+}
+/*========================================service part css end==================================*/
+/*========================================about part css start================================*/
+#about_part{
+    padding: 40px 10px;
+    background: #060817;
+}
+.about_text{
+    text-align: center;
+}
+.about_text h2{
+    color: #fff;
+    font-size: 40px;
+    font-family:'Open Sans'; 
+    font-weight: 400;
+    margin-top: 20px;
+}
+.about_img{
+
+}
+.about_img img{
+    width: 400px;
+    box-shadow: 5px 2px 8px 8px;
+    margin-top: 50px;
+}
+.about_content{
+    margin-top: 50px;
+}
+.about_content h3{
+    color: #fff;
+    font-size: 25px;
+    font-family:'Open Sans';
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.about_content p{
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.about_tt-text h4{
+    color: #c95e07;
+    font-size: 20px;
+    font-family:'Open Sans';
+    font-weight: 700;
+    margin-top: 20px;
+}
+.about_tt-text span{
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.about_btnn{
+    margin-top: 70px;
+    position: relative;
+}
+.about_btnn::after{
+    position: absolute;
+    content: '';
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #8b8888;
+}
+.about_btnn a{
+    padding: 15px 30px;
+    background: #c55307;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.about_btnn a:hover{
+    background: #060817;
+    transition: 2s;
+}
+.about_btnn a i{
+    font-size: 14px;
+}
+/*========================================about part css end==================================*/
+/*====================================test_block part css start================================*/
+#test_block{
+    padding: 40px 10px;
+    background: #060817;
+}
+.tt_block{
+    background: url(../images/keyboard.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 30px 10px;
+    text-align: center;
+    margin-top: 50px;
+    z-index: 1;
+}
+.tt_block::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.8);
+    z-index: -1;
+}
+.tt_block h2{
+    color: #fff;
+    font-size: 35px;
+    font-family:'Open Sans';
+    font-weight: 700;
+    margin-top: 20px;
+}
+.tt_block a{
+    padding: 15px 25px;
+    background: #c55307;
+    color: #fff;
+    font-size: 14px;
+    font-family:'Open Sans';
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-decoration: none;
+}
+/*====================================test_block part css end==================================*/
+/*========================================my skill css start================================*/
+#my_skills{
+    padding: 60px 10px;
+    background: #060817;
+}
+.skill_tittle{
+    text-align: center;
+    margin-top: 30px;
+}
+.skill_tittle h2{
+    color: #fff;
+    font-size: 35px;
+    font-family:'Open Sans';
+    font-weight: 400;
+}
+.skills_text{
+    margin-top: 40PX;
+}
+.skills_text h4{
+    color: #fff;
+    font-size: 25px;
+    font-family:'Open Sans';
+    font-weight: 400;
+    margin-top: 20PX;
+    margin-bottom: 30PX;
+}
+.skills_text p{
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 300;
+}
+.skills_text a{
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.demo-area{
+    margin-top: 80PX;
+}
+.single-progressbar{
+}
+.demo-area .single-progressbar h4{
+    color: #fff;
+    font-size: 20PX;
+    font-family:'Open Sans';
+    font-weight: 400;
+}
+
+/*========================================my skill css end==================================*/
+/*========================================portfoli part css start================================*/
+#portfoli{
+    padding: 40px 10px;
+    background: #060817;
+}
+.port_content{
+
+}
+.port_content h3{
+    color: #fff;
+    font-size: 35px;
+    font-family:'Open Sans';
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+
+/*========================================portfoli part css end==================================*/
+/*========================================counter part css start================================*/
+#counter_part{
+    padding: 40px 10px;
+    background: url(../images/me-3.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#counter_part::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(6, 8, 23, 0.9);
+    z-index: -1;
+}
+.cout_main{
+   margin-top: 50px;
+   color: rgb(18, 19, 32);
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex div {
+    width: 250px;
+    height: 250px;
+    padding: 50px 0;
+    margin: 10px;
+    text-align: center;
+    text-align: center;
+    color: #fff;
+}
+.flex div h1{
+    color: #c55307;
+    font-size: 60px;
+    font-family:'Open Sans';
+    font-weight: 700;
+}
+.flex div h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Open Sans';
+    font-weight: 300;
+}
+/*========================================counter part css end==================================*/
+/*========================================testimonial part css start================================*/
+#testimonial{
+    padding: 40px 10px;
+    background: #060817;
+}
+.ts_tittle{
+    text-align: center;
+}
+.ts_tittle h2{
+    color: #fff;
+    font-size: 35px;
+    font-family:'Open Sans';
+    font-weight: 500;
+}
+.ts_content{
+    text-align: center;
+}
+.ts_content figure{
+    color: #c95b11;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.ts_content p{
+    color: #fff;
+    font-size: 18px;
+    font-family:'Open Sans';
+    font-weight: 300;
+}
+.ts-img img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid grey;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.ts-img h5{
+    color: #fff;
+    font-size: 20px;
+    font-family:'Open Sans';
+    font-weight: 500;
+    margin-top: 20px;
+}
+.ts-img h6{
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 500;
+    margin-top: 10px;
+}
+/*========================================testimonial part css end==================================*/
+/*========================================footer part css start================================*/
+#footer_part{
+    padding: 40px 10px;
+    background: url(../images/me-3.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#footer_part::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 8, 23, 0.9);
+    z-index: -1;
+}
+.footer_tittle{
+    text-align: center;
+}
+.footer_tittle h2{
+    color: #fff;
+    font-size: 40px;
+    font-family:'Open Sans';
+    font-weight: 700;
+    border: 2px solid #fff;
+    width: 300px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.footer_contet{
+    margin-top: 30px;
+}
+.footer_contet img{
+    margin-top: 50px;
+}
+.footer_contet h5{
+    color: #fff;
+    font-size: 22px;
+    font-family:'Open Sans';
+    font-weight: 700;
+    margin-top: 15px;
+}
+.fot_tt p{
+    color: #d3cece;
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 300;
+    margin-top: 10px;
+}
+.fot_tt span{
+    color: #d3cece;
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 300;
+}
+/*========================================footer part css end==================================*/
+/*========================================contact part css start================================*/
+.contact_part{
+    padding-top: 60px;
+}
+.ft_contact h3{
+    color: #fff;
+    font-size: 30px;
+    font-family:'Open Sans';
+    font-weight: 300;
+}
+
+.cont_social ul{
+    margin-top: 15px;
+}
+.cont_social ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.cont_tt p{
+    color: #fff;
+    margin-top: 25px;
+}
+.cont_frm h3{
+    color: #fff;
+    font-size: 30px;
+    font-family:'Open Sans';
+    font-weight: 300;
+}
+.cont_frm form{
+    margin-top: 20px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+    background: rgb(0, 0, 0, .2);
+    border: none;
+    border-radius: 0;
+}
+.form-control:hover{
+    background: none;
+    border: none;
+}
+.btn-primary{
+    float: right;
+    background: #c55307;
+    border: none;
+}
+.btn-primary:hover{
+    background: #c55307;
+}
+/*========================================contact part css end==================================*/
+/*========================================copy_right css start================================*/
+.copy_right{
+    padding: 15px 0;
+}
+.copt_tt{
+    text-align: center;
+}
+.copt_tt p{
+    color: #060817;
+    font-size: 14px;
+}
+/*========================================copy_right css end==================================*/
